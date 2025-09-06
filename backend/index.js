@@ -15,7 +15,7 @@ app.use(express.urlencoded({ limit: "5mb", extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chat-nest-tau.vercel.app",
+    origin: "https://chat-nest-sunny.vercel.app",
     credentials: true,
   })
 );
