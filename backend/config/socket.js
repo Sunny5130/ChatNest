@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["https://localhost:5173"],
+    origin: ["https://chat-nest-tau.vercel.app"],
   },
   credentials: true,
 });
